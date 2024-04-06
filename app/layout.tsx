@@ -13,6 +13,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  manifest:"/manifest.json",
  
   icons: {
     icon: "/icon.png",
