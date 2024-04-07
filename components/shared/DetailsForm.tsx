@@ -44,7 +44,7 @@ export default function DetailsForm() {
         console.log(res._id);
         localStorage.setItem("userId", res._id);
         form.reset();
-        router.push("/quiz");
+        document.location="https://acehacksmobile.vercel.app/quiz";
         authModal.onOpen();
       }
     } catch (error) {
