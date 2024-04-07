@@ -1,5 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 
+/* Importing Roboto font with specific weights */
+// @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+
+
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -71,6 +76,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],
+        serif: ['DM Serif Text', 'serif'],
       },
       backgroundImage: {
         "dotted-pattern": "url('/assets/images/dotted-pattern.png')",
@@ -99,3 +105,4 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 };
+

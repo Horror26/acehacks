@@ -30,7 +30,7 @@ const Header = () => {
               height={20}
               className="rounded-xl pr-1"
             />
-            <h1 className=" font-semibold">MindFullMe</h1>
+            <h1 className=" font-semibold font-serif">MindfullMe</h1>
           </div>
         </Link>
         {authModal.isOpen && (

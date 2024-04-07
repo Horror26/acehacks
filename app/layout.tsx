@@ -15,7 +15,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
  
   icons: {
-    icon: "/icon.png",
+    icon: "/ico.png",
   },
 };
 
