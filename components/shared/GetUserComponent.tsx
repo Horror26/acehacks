@@ -45,7 +45,7 @@ const GetCurrentUserComponent = () => {
   values = "positive"
   console.log(values);
   const MODEL_NAME = "gemini-1.0-pro";
-  const API_KEY = "AIzaSyAu9Os4eR-pnlw1JbRE_DpccFoHeYI9ghk";
+  const API_KEY = "AIzaSyCyVuiAtKTzvluMsLuc1melMyKm7cusrSk";
   const genAI = new GoogleGenerativeAI(API_KEY);
   const model = genAI.getGenerativeModel({ model: MODEL_NAME });
 
